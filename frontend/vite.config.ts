@@ -18,6 +18,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
+      events: 'events',
     },
   },
   root: path.resolve(__dirname), // 明确指定项目的root路径
